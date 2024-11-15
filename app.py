@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify, render_template
 
 import pickle
 import numpy as np
-
 # Load the trained model
 model_path = 'model.pkl'
 with open(model_path, 'rb') as file:
